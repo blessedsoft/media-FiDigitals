@@ -1,0 +1,97 @@
+/* Custom styles for Media-Fi based on Agency Bootstrap theme */
+
+/* Body and Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Masthead (Hero Section) */
+.masthead {
+    background: linear-gradient(135deg, #1a73e8, #4285f4);
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.masthead-heading {
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.masthead-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Divider */
+.divider {
+    width: 60px;
+    height: 4px;
+    background-color: #1a73e8;
+    margin: 1.5rem auto 3rem auto;
+    border-radius: 2px;
+}
+
+/* Services Section */
+.service-box img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-box h3 {
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    color: #1a73e8;
+}
+
+.service-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* About Section */
+#about p.lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #444;
+}
+
+/* Contact Form */
+.form-control:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 5px rgba(26, 115, 232, 0.5);
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #155ab6;
+    border-color: #155ab6;
+}
+
+/* Footer */
+footer {
+    background-color: #1a73e8;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    .masthead-heading {
+        font-size: 2.5rem;
+    }
+    .masthead-subheading {
+        font-size: 1.2rem;
+    }
+}
